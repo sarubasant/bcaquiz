@@ -304,11 +304,11 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`user_id`, `fullname`, `email`, `password`, `gender`, `created_at`) VALUES
-(1, 'Basanta Saru', 'sarubasant@gmail.com', '12345', 'male', '2023-06-04 07:24:36'),
+(1, 'Basanta Saru', 'author@gmail.com', '12345', 'male', '2023-06-04 07:24:36'),
 (2, 'Janak Pandey', 'janakpandey199@gmail.com', '12345', 'male', '2023-06-04 07:30:48'),
 (11, 'Monika Midhun', 'monika@gmail.com', '12345', 'female', '2023-06-04 08:08:14'),
 (34, 'john doe', 'johndoe@lcc.com', '12345', 'male', '2023-06-04 12:24:38'),
-(35, 'Puja Lama', 'pujalama@gmail.com', '11111', 'female', '2023-06-04 12:27:09'),
+
 (36, 'Binod Pandey', 'pandeybinod@gmail.com', '12345', 'male', '2023-06-04 12:33:54');
 
 --
