@@ -1,0 +1,16 @@
+.counter {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+    animation: count 2s ease-in-out;
+  }
+  
+  @keyframes count {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <style>
+    #myParagraph {
+      cursor: pointer;
+      transition: filter 0.3s ease;
+    }
+    
+    #myParagraph.blur {
+      filter: blur(1px);
+    }
+  </style>
+</head>
+<body>
+  <p id="myParagraph">Click me!</p>
+
+  <script>
+    $(document).ready(function() {
+      $('#myParagraph').click(function() {
+        $(this).toggleClass('blur');
+      });
+    });
+  </script>
+</body>
+</html>

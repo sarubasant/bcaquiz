@@ -1,0 +1,30 @@
+/* Style for the chart container */
+#columnchart {
+    width: 100%;
+    max-width: 600px;
+    height: 400px;
+    margin: 0 auto;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the chart title */
+#columnchart h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+/* Style for the Google Charts tooltip */
+.google-visualization-tooltip {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 14px;
+}
